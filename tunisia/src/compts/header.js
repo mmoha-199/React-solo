@@ -5,8 +5,8 @@ import React from 'react';
 export default function Navbar(){
    
         return(
-            <nav>
-                <img className='logo'/>
+            <nav className='navig'>
+                <img className='logo' src='./img/tun-uk.png' alt='tun-uk-flag'/>
                 <ul className='nav-list'>
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>About</a></li>

@@ -1,3 +1,4 @@
+/*@import "~react-image-gallery/styles/css/image-gallery.css";*/
 .App {
   text-align: center;
 }
@@ -36,8 +37,19 @@
     transform: rotate(360deg);
   }
 }
+.navig{
+  background-color: rgb(221, 82, 110);
+}
+.logo{
+  float: right;
+  width: 150px;
+  height: 100px;
+}
 .nav-list{
   list-style: none;
+  height: 120px;
+  max-height: 100px;
+
 }
 .nav-list li {
   float: left;
